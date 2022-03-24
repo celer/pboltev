@@ -1,0 +1,16 @@
+{
+    "mqtt": {
+        "broker" : "broker_address",
+        "port" : 8883,
+        "user" : "user",
+        "password" : "password",
+        "topic_prefix" : "topic"
+    },
+    "serial": {
+        "port" : "/dev/rfcomm0",
+        "baudrate": 9600
+    },
+    "vehicle": {
+        "battery_capacity": 28
+    }
+}
